@@ -1,4 +1,4 @@
-# Arquetipo Básico de Pruebas Automatizadas para microservicios con Karate DSL
+# Arquetipo Básico de Pruebas Automatizadas para microservicios con Karate
 
 ## Pre-requisitos
 
@@ -17,13 +17,13 @@
 Clonar el proyecto
 
 ```bash
-  git clone https://github.com/frankramle/karate-gradle.git
+  git clone https://github.com/CarBon593/challengeAPI.git
 ```
 
 Entrar al directorio del proyecto
 
 ```bash
-  cd karate-gradle
+  cd challengeAPI
 ```
 ## Comandos
 
@@ -33,7 +33,11 @@ Para decargar todas las dependencias y no ejecutar los test
 ```
 Para ejecutar todos los features por linea de comandos
 ```bash
-  gradle clean test 
+  gradle clean test -i
+```
+Para visualizar el reporte de la ejecución 
+```bash
+  En la carpeta "target" abrir el archivo "karate-summary.html" con cualquier navegador 
 ```
 
 > **NOTA**:

@@ -1,0 +1,8 @@
+Conclusiones:
+Karate es muy sensillo de usar para las pruebas automatizadas de APIs, tiene comandos que facilita la solicitud de servicios web y validaciones de lo que se requiera verificar.
+
+Además como karate integra cucumber los casos de prueba puden ser entendibles para cualquier persona que no conoce de automatización.
+
+Tanto Karate como Cucumber proporcionan informes detallados sobre el resultado de las pruebas, lo que ayuda a identificar rápidamente problemas y analizar el rendimiento de las pruebas.
+
+Con Karate y Cucumber, las pruebas de API pueden escribirse y ejecutarse más rápidamente, lo que acelera el proceso de desarrollo y mejora la calidad del software.
