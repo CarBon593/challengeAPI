@@ -27,10 +27,7 @@ Entrar al directorio del proyecto
 ```
 ## Comandos
 
-Para decargar todas las dependencias y no ejecutar los test
-```bash
-  gradle clean build -x test 
-```
+
 Para ejecutar todos los features por linea de comandos
 ```bash
   gradle clean test -i
@@ -40,10 +37,6 @@ Para visualizar el reporte de la ejecución
   En la carpeta "target" abrir el archivo "karate-summary.html" con cualquier navegador 
 ```
 
-> **NOTA**:
-> * Para ejecutar el proyecto se necesita Java JDK 11 y Gradle con la versión 7.6 o superior.
-> * Para poder instalar gradle en windows podemos seguir el siguiente tutorial https://www.geeksforgeeks.org/how-to-install-gradle-on-windows/.
-> * Luego de la ejecucion de pruebas, los reportes se generan en la carpeta **build/karate-reports/**, y el archivo de resumen es el **karate-summary.html**
 
 ## Construido con:
 La automatización fue desarrollada con:
